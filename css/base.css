@@ -1,0 +1,57 @@
+/*reset css*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;/*元素宽度自适应*/
+  -webkit-box-sizing: border-box;
+  /*点击高亮效果的清除*/
+  tap-highlight-color:transparent;
+  -webkit-tap-highlight-color:transparent;
+}
+
+body {
+  color:#333;
+  font-size: 14px;
+  font-family: 'Microsoft YaHei',sans-serif;
+}
+
+ul,ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color:#333;
+}
+
+input,textarea {
+  outline: none;
+  border: none;
+  resize: none;
+  /*清除移动端输入框特有的样式*/
+  -webkit-appearance:none;
+}
+
+/*=====common css  公共样式=====*/
+.f_left {
+  float: left;
+  border-left:1px solid #ccc;
+}
+
+.f_right {
+  float: right;
+  border-bottom:1px solid #ccc;
+}
+
+/*清除浮动*/
+.clearFloat::before,
+.clearFloat::after {
+  content:'';
+  display: block;
+  height:0;
+  line-height: 0;
+  visibility: hidden;
+  clear:both;
+}
