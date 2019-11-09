@@ -21,7 +21,7 @@ body{
   min-width: 320px;
   max-width: 640px;
   height: 40px;
-  background: #EB2F71;
+  background-color: rgba(201,21,35,0.85);
   margin: 0 auto;
   position:relative;
 }
@@ -86,7 +86,8 @@ body{
 }
 .jd_banner ul:first-child{
   width: 1000%;
-  transform: translate(-10%);
+  transform: translateX(-10%);
+  -webkit-transform: translateX(-10%);
 }
 .jd_banner ul:first-child li{
   width: 10%;

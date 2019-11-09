@@ -37,12 +37,10 @@ input,textarea {
 /*=====common css  公共样式=====*/
 .f_left {
   float: left;
-  border-left:1px solid #ccc;
 }
 
 .f_right {
   float: right;
-  border-bottom:1px solid #ccc;
 }
 
 /*清除浮动*/
